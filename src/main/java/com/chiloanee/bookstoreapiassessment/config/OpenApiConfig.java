@@ -43,6 +43,9 @@ public class OpenApiConfig {
                                 .url("https://www.apache.org/licenses/LICENSE-2.0.html")))
                 .servers(List.of(
                         new Server()
+                                .url("https://book-store-api-assessment.onrender.com")
+                                .description("Onrender Development Server"),
+                        new Server()
                                 .url("http://localhost:8080")
                                 .description("Local Development Server"),
                         new Server()
